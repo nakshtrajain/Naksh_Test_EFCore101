@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/nakshtrajain/EFCore101/EFCore101/EFCore101.csproj": {}
+  },
+  "projects": {
+    "/home/nakshtrajain/EFCore101/EFCore101/EFCore101.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nakshtrajain/EFCore101/EFCore101/EFCore101.csproj",
+        "projectName": "EFCore101",
+        "projectPath": "/home/nakshtrajain/EFCore101/EFCore101/EFCore101.csproj",
+        "packagesPath": "/home/nakshtrajain/.nuget/packages/",
+        "outputPath": "/home/nakshtrajain/EFCore101/EFCore101/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nakshtrajain/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.26, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.132/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
